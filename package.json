@@ -1,0 +1,21 @@
+{
+  "name": "mavs-menus",
+  "version": "1.0.0",
+  "description": "Alexa app offering menu suggestions/storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start-db": "java -Djava.library.path=./DynamoDBcal_lib -jar DynamoDBLocal.jar -sharedDb -port 4000"
+  },
+  "author": "billy_reilly@hotmail.co.uk",
+  "license": "ISC",
+  "devDependencies": {},
+  "alexa": {
+    "applicationId": "amzn1.ask.skill.9a7a323b-7fa5-4ee6-8f38-88601da8e52a"
+  },
+  "dependencies": {
+    "alexa-app": "^4.2.0",
+    "dynasty": "^0.3.8",
+    "lodash": "^4.17.4"
+  }
+}

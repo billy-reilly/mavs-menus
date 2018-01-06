@@ -1,0 +1,5 @@
+DynamoDBLocal.jar
+DynamoDBLocal_lib/
+node_modules/
+shared-local-instance.db
+*.zip
